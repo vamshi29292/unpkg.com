@@ -31,6 +31,7 @@ function stripLeadingSegment(name) {
 }
 
 function searchEntries(tarballStream, entryName, wantsIndex) {
+  console.log('hello');
   return new Promise((resolve, reject) => {
     const entries = {};
     let foundEntry = null;
